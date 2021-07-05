@@ -18,7 +18,15 @@ If you want the store to be avilable, you can run this installer as well. It is 
 > sudo apt install gnome-software
 
 ### Visual Studio ARM Instillation
-If you want to install Visual Studio, you will need to go to this page [here](https://code.visualstudio.com/download) and choose the .deb ARM version of the software. 
+If you want to install Visual Studio, you will need to go to this page [here](https://code.visualstudio.com/download) and choose the .deb ARM version of the software. Then use one of following commands to install in the Terminal.
+
+#### Method 1
+> sudo apt install /path/to/visualstudio.deb
+
+#### Method 2
+> sudo dpkg -i /path/to/visualstudio.deb
+
+**TIP:** Typing the path to a file takes a lot of work. In either of the methods above, you can simply type `sudo apt install` and then drag the .deb file on top of the Terminal. 
 
 ## Swift ARM
 There are two ways to install Swift ARM. One is by installing it on your Ubuntu System in such a way that it integrates it into the system. Another is by downloaing and running it within a package. I prefer the second method, becuase it doesn't put Swift binaries in the standard directories and allows me to delete the toolchain entirely if I want to replace it with a new version or run an experimental version.
