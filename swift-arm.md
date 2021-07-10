@@ -5,12 +5,15 @@ This guide will help you install and manage Swift (and flavours of Swift) on Swi
 ## Ubuntu ARM Instillation 
 
 ### Download
-Ubuntu ARM is distributed primarily as as server. Which means it doesn't install a GUI. If you want a GUI (you do) you will need to continue to the next instructions after you have downloaded and installed Ubuntu ARM.
+Ubuntu ARM is distributed primarily as as server, which means it doesn't have GUI automatically as a part of its package. If you want a GUI (you do) you will need to continue to the next instructions after you have downloaded and installed Ubuntu ARM.
 [Download Page](https://ubuntu.com/download/server/arm)
-### GUI
+
+### Install GUI
 After you  have installed Ubuntu ARM (Server), you will need to run the following command to install a desktop GUI.
 
 > sudo apt install ubuntu-desktop
+
+Now that you have a GUI, you can login and use the Terminal app.
 
 ### Store
 If you want the store to be avilable, you can run this installer as well. It is not necessary.
